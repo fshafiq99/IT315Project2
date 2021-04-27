@@ -1,87 +1,34 @@
 {
   "Animes": [
     {
-      "AnimeName": "Brush Teeth",
-      "AnimeDesc": "2 hours",
-      "AnimeImage": "https://raw.githubusercontent.com/khiz23/demo-1/master/brush.jpg",
-      "AnimeSite": "https://www.youtube.com/watch?v=wCio_xVlgQ0"
+      "AnimeName": "Naruto Shippuden",
+      "AnimeDesc": "Naruto Shippuden is the second series of Naruto anime that follows the titular hero on his quest to become Hokage. Unlike the first series, Naruto is now older and has new teachers to help him through his adventure. At the same time, he faces the biggest threats to the five shinobi nations and must deal with the loss of someone he considers a brother.",
+      "AnimeImage": "https://raw.githubusercontent.com/fshafiq99/IT315Project2/main/Naruto-Shippuden-PNG-Photos.png",
+      "AnimeSite": "https://myanimelist.net/anime/1735/Naruto__Shippuuden?q=naruto&cat=anime"
     },
     {
-      "AnimeName": "Do Homework",
-      "AnimeDesc": "3 hours",
-      "ChoreImageName": "https://raw.githubusercontent.com/khiz23/demo-1/master/hw.png",
-      "AnimeSite": "https://www.youtube.com/watch?v=NapgUpa9j4g"
+      "AnimeName": "Attack on Titan",
+      "AnimeDesc": "It is set in a world where humanity lives inside cities surrounded by enormous walls that protect them from gigantic man-eating humanoids known as Titans; the story follows Eren Yeager, who vows to exterminate the Titans after a Titan brings about the destruction of his hometown and the death of his mother.",
+      "ChoreImageName": "https://raw.githubusercontent.com/fshafiq99/IT315Project2/main/aot.jpeg",
+      "AnimeSite": "https://myanimelist.net/anime/40028/Shingeki_no_Kyojin__The_Final_Season?q=atta&cat=anime"
     },
     {
-      "AnimeName": "Clean Bathroom",
-      "AnimeDesc": "1 hour",
-      "AnimeImage": "https://raw.githubusercontent.com/khiz23/demo-1/master/bathroom.jpg",
-      "AnimeSite": "https://www.youtube.com/watch?v=SsbCkzufmk8"
+      "AnimeName": "Demon Slayer",
+      "AnimeDesc": "A family is attacked by demons and only two members survive - Tanjiro and his sister Nezuko, who is turning into a demon slowly. Tanjiro sets out to become a demon slayer to avenge his family and cure his sister.",
+      "AnimeImage": "https://raw.githubusercontent.com/fshafiq99/IT315Project2/main/demonslayer.jpeg",
+      "AnimeSite": "https://myanimelist.net/anime/38000/Kimetsu_no_Yaiba?q=demon%20sl&cat=anime"
     },
     {
-      "AnimeName": "Put Toys Away",
-      "AnimeDesc": "3.5 hours",
-      "AnimeImage": "https://raw.githubusercontent.com/khiz23/demo-1/master/toys.jpg",
-      "AnimeSite": "https://www.youtube.com/watch?v=oY-H2WGThc8"
+      "AnimeName": "Jujutsu Kaisen",
+      "AnimeDesc": "Hidden in plain sight, an age-old conflict rages on. Supernatural monsters known as 'Curses' terrorize humanity from the shadows, and powerful humans known as 'Jujutsu' sorcerers use mystical arts to exterminate them. When high school student Yuuji Itadori finds a dried-up finger of the legendary Curse Sukuna Ryoumen, he suddenly finds himself joining this bloody conflict.",
+      "AnimeImage": "https://raw.githubusercontent.com/fshafiq99/IT315Project2/main/jjk.png",
+      "AnimeSite": "https://myanimelist.net/anime/40748/Jujutsu_Kaisen_TV?q=juj&cat=anime"
     },
     {
-      "AnimeName": "Make Bed",
-      "AnimeDesc": "1.5 hours",
-      "AnimeImage": "https://raw.githubusercontent.com/khiz23/demo-1/master/bed.jpeg",
-      "AnimeSite": "https://www.youtube.com/watch?v=018mAffBtUo"
+      "AnimeName": "Hunter X Hunter",
+      "AnimeDesc": "Hunter x Hunter is set in a world where Hunters exist to perform all manner of dangerous tasks like capturing criminals and bravely searching for lost treasures in uncharted territories. Twelve-year-old Gon Freecss is determined to become the best Hunter possible in hopes of finding his father, who was a Hunter himself and had long ago abandoned his young son. However, Gon soon realizes the path to achieving his goals is far more challenging than he could have ever imagined.",
+      "AnimeImage": "https://raw.githubusercontent.com/fshafiq99/IT315Project2/main/hunterxhunter.png",
+      "AnimeSite": "https://myanimelist.net/anime/11061/Hunter_x_Hunter_2011?q=hun&cat=anime"
     }
   ]
 }
-
-
-
-
-let a1 = newAnime()
-            a1.AnimeName = "Naruto Shippuden"
-            a1.AnimeDesc = "Naruto Shippuden is the second series of Naruto anime that follows the titular hero on his quest to become Hokage. Unlike the first series, Naruto is now older and has new teachers to help him through his adventure. At the same time, he faces the biggest threats to the five shinobi nations and must deal with the loss of someone he considers a brother."
-            a1.AnimeMAL = 8.17
-            a1.AnimeRating = 9.2
-            a1.AnimeImage = "Naruto-Shippuden-PNG-Photos.png"
-            AnObjectArray.insert(a1, at: 0)
-            https://myanimelist.net/anime/1735/Naruto__Shippuuden?q=naruto&cat=anime
-            
-            let a2 = newAnime()
-            a2.AnimeName = "Attack on Titan"
-            a2.AnimeDesc = "It is set in a world where humanity lives inside cities surrounded by enormous walls that protect them from gigantic man-eating humanoids known as Titans; the story follows Eren Yeager, who vows to exterminate the Titans after a Titan brings about the destruction of his hometown and the death of his mother."
-            a2.AnimeMAL = 9.15
-            a2.AnimeRating = 8.3
-            a2.AnimeImage = "aot.jpeg"
-            AnObjectArray.append(a2)
-            https://myanimelist.net/anime/40028/Shingeki_no_Kyojin__The_Final_Season?q=atta&cat=anime
-
-            let a3 = newAnime()
-            a3.AnimeName = "Demon Slayer"
-            a3.AnimeDesc = "A family is attacked by demons and only two members survive - Tanjiro and his sister Nezuko, who is turning into a demon slowly. Tanjiro sets out to become a demon slayer to avenge his family and cure his sister."
-            a3.AnimeMAL = 8.62
-            a3.AnimeRating = 8.5
-            a3.AnimeImage = "demonslayer.jpeg"
-            AnObjectArray.append(a3)
-            https://myanimelist.net/anime/38000/Kimetsu_no_Yaiba?q=demon%20sl&cat=anime
-
-
-            let a4 = newAnime()
-            a4.AnimeName = "Jujutsu Kaisen"
-            a4.AnimeDesc = "Hidden in plain sight, an age-old conflict rages on. Supernatural monsters known as 'Curses' terrorize humanity from the shadows, and powerful humans known as 'Jujutsu' sorcerers use mystical arts to exterminate them. When high school student Yuuji Itadori finds a dried-up finger of the legendary Curse Sukuna Ryoumen, he suddenly finds himself joining this bloody conflict."
-            a4.AnimeMAL = 8.31
-            a4.AnimeRating = 8.9
-            a4.AnimeImage = "jjk.png"
-            AnObjectArray.append(a4)
-            https://myanimelist.net/anime/40748/Jujutsu_Kaisen_TV?q=juj&cat=anime
-
-
-            let a5 = newAnime()
-            a5.AnimeName = "Hunter X Hunter"
-            a5.AnimeDesc = "Hunter x Hunter is set in a world where Hunters exist to perform all manner of dangerous tasks like capturing criminals and bravely searching for lost treasures in uncharted territories. Twelve-year-old Gon Freecss is determined to become the best Hunter possible in hopes of finding his father, who was a Hunter himself and had long ago abandoned his young son. However, Gon soon realizes the path to achieving his goals is far more challenging than he could have ever imagined."
-            a5.AnimeMAL = 9.09
-            a5.AnimeRating = 8.6
-            a5.AnimeImage = "hunterxhunter.png"
-            AnObjectArray.append(a5)
-            https://myanimelist.net/anime/11061/Hunter_x_Hunter_2011?q=hun&cat=anime
-            
-            
-        }
